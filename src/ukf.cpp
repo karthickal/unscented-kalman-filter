@@ -134,8 +134,6 @@ void UKF::ProcessMeasurement(MeasurementPackage meas_package) {
         UpdateRadar(meas_package);
     }
 
-    cout << "NIS Laser - " << NIS_laser_ << endl;
-    cout << "NIS Radar - " << NIS_radar_ << endl;
 }
 
 /**

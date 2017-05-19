@@ -6,6 +6,11 @@ This project is part of Udacity's Self-Driving Car Engineer Nanodegree Program. 
 
 This repository contains a c++ implementation of an unscented Kalman Filter that predicts state from RADAR and LIDAR data. The prediction step calculates the state and covariance by predicting sigma points for the non-linear CRTV model. The update step calculates the posterior for RADAR and LIDAR separately using the cross correlation matrix.
 
+For the sample data the calculated RMSE is - 
+* 0.0720901
+* 0.0894626
+* 0.381186
+* 0.261678
 ## Dependencies
 
 * cmake >= 3.5
