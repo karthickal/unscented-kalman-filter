@@ -4,7 +4,7 @@ This project is part of Udacity's Self-Driving Car Engineer Nanodegree Program. 
 
 ## Overview
 
-This repository contains a c++ implementation of a Kalman Filter that predicts state from RADAR and LIDAR data. The prediction step models a linear model for both RADAR and LIDAR. While the update step transforms the non-linear model to a linear model using Jacobian matrix for RADAR data.
+This repository contains a c++ implementation of an unscented Kalman Filter that predicts state from RADAR and LIDAR data. The prediction step calculates the state and covariance by predicting sigma points for the non-linear CRTV model. The update step calculates the posterior for RADAR and LIDAR separately using the cross correlation matrix.
 
 ## Dependencies
 
